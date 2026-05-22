@@ -35,7 +35,7 @@ A lightweight Python pipeline that demonstrates:
 4. **Savings calculation** — `(current_price − sourceclub_price) × quantity` per line  
 5. **Human-in-the-loop routing** — `AUTO_APPROVED`, `MANUAL_REVIEW`, or `UNMATCHED`
 
-**Repository:** `C:\Users\rkedd\Projects\sourceclub-savings-analysis-demo` (publish via [SETUP_GITHUB.md](SETUP_GITHUB.md))  
+**Repository:** https://github.com/RichEdd/sourceclub-savings-analysis-demo  
 **Run locally:** `pip install -r requirements.txt` → `python main.py`
 
 ---

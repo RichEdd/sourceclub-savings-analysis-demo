@@ -1,22 +1,39 @@
-# GitHub Setup
+# GitHub Setup (Complete)
 
-Run these commands from the project folder after [Git](https://git-scm.com/download/win) and [GitHub CLI](https://cli.github.com/) are installed.
+Your machine is configured and this project is published.
+
+| Item | Value |
+|------|-------|
+| **GitHub account** | [RichEdd](https://github.com/RichEdd) |
+| **Repository** | https://github.com/RichEdd/sourceclub-savings-analysis-demo |
+| **Default branch** | `master` |
+| **Protocol** | HTTPS (credentials via GitHub CLI) |
+
+## Installed tools
+
+- **Git** 2.54+ — `C:\Program Files\Git\cmd\git.exe`
+- **GitHub CLI** 2.92+ — `gh`
+
+## Push future changes
 
 ```powershell
 cd C:\Users\rkedd\Projects\sourceclub-savings-analysis-demo
-
-git init
 git add .
-git commit -m "Add Source Club savings analysis demo prototype"
-
-# Create public repo (change visibility or name as needed)
-gh repo create sourceclub-savings-analysis-demo --public --source=. --remote=origin --push --description "Lightweight AI-assisted savings analysis prototype for dental procurement workflows using fuzzy product matching and automated savings calculations."
+git commit -m "Describe your change"
+git push
 ```
 
-If the repo name is taken, pick another name:
+## If you sign out or switch machines
 
 ```powershell
-gh repo create YOUR-USERNAME/sourceclub-savings-demo --public --source=. --remote=origin --push
+gh auth login -h github.com -p https -w
+gh auth setup-git
 ```
 
-Then update the repo URL in `EXECUTIVE_SUMMARY.md` if needed.
+## Optional: rename default branch to `main`
+
+```powershell
+git branch -m master main
+git push -u origin main
+gh repo edit --default-branch main
+```
