@@ -1,0 +1,5 @@
+prospect_product,matched_product,confidence_score,workflow_action,current_price,sourceclub_price,quantity,estimated_savings
+Nitrile Gloves Med Blue 100ct,Blue Nitrile Gloves Medium 100 Count,83,AUTO_APPROVED,12.5,8.25,24,102.0
+3M Prophy Angles Soft,3M Disposable Soft Prophy Angles,79,MANUAL_REVIEW,22.0,15.75,12,75.0
+Level 3 Earloop Masks 50ct,Level III Procedure Masks Earloop 50 Count,68,MANUAL_REVIEW,9.75,6.1,18,65.7
+Cotton Rolls Large 200ct,Large Cotton Rolls 200 Count,85,MANUAL_REVIEW,6.2,4.8,10,14.0
